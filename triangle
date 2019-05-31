@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 # get no. of lines (or use default: 10)
 $c = $ARGV[0] || 10;
-# set up & print first 2 lines
+# set up & print first line
 printf("%*s\n", $c+12, &colorize(1));
 @a = (1);	# start!
 for (my $i=1;$i<$c;$i++) {	# lines
